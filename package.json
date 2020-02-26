@@ -1,0 +1,30 @@
+{
+  "name": "mejsla-ts-cirkel-get-started",
+  "version": "1.0.0",
+  "description": "Länkar, tips och trix för den Node- och TypeScript-ovane",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.4",
+    "typescript": "^3.8.2"
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "start": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gustafc@github.com/gustafc/mejsla-ts-cirkel-get-started.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustafc/mejsla-ts-cirkel-get-started/issues"
+  },
+  "homepage": "https://github.com/gustafc/mejsla-ts-cirkel-get-started#readme"
+}
