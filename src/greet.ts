@@ -1,3 +1,3 @@
 export function greet(who: String) {
-    return `Hello, ${who}!`;
+  return `Hello, ${who}!`;
 }

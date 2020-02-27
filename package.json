@@ -8,12 +8,16 @@
   },
   "devDependencies": {
     "@types/node": "^13.7.4",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.8",
+    "prettier": "^1.19.1",
     "typescript": "^3.8.2"
   },
   "scripts": {
     "prepare": "npm run build",
     "build": "tsc",
     "start": "node lib/index.js",
+    "prettier": "prettier --write src/**/*.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +30,13 @@
   "bugs": {
     "url": "https://github.com/gustafc/mejsla-ts-cirkel-get-started/issues"
   },
-  "homepage": "https://github.com/gustafc/mejsla-ts-cirkel-get-started#readme"
+  "homepage": "https://github.com/gustafc/mejsla-ts-cirkel-get-started#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.ts": "prettier --write"
+  }
 }
