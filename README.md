@@ -15,6 +15,7 @@ För att köra projektet - en "hello world" i TS - gör som följer:
 
 1. Installera Node JS, enligt anvisningarna nedan
 2. `npm install` - tankar ner beroenden och kompilerar
+3. `npm test` - kör enhetstester (i filer med namn i stil med `foo.test.ts`)
 3. `npm start` - kör huvudfilen (`lib/index.js`)
 
 För att bygga explicit, kör `npm run build`.
