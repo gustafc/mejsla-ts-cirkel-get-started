@@ -81,3 +81,30 @@ node -v | cut -c 2- > .nvmrc
 [NVM for Windows](https://github.com/coreybutler/nvm-windows/) tillhandahåller
 ungefär samma funktionalitet som Posix-NVM, se instruktionerna ovan. Tyvärr
 stöds dock inte `.nvmrc`-filen.
+
+## Webappar med TypeScript
+
+Att få TS-stöd i de stora ramverken är idag hyfsat trivialt.
+
+### React
+
+För att skapa ett nytt, TS-baserat React-projekt har `create-react-app` en mall
+för det ändamålet:
+
+    npx create-react-app my-app --template typescript
+
+För att sedan starta projektet:
+
+    cd my-app
+    npm start
+
+### Angular
+
+Angular kör TypeScript som standard. För att skapa nytt projekt:
+
+    npx ng new my-app
+
+För att sedan starta projektet:
+
+    cd my-app
+    npm start
