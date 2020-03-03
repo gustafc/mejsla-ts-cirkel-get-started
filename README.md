@@ -1,13 +1,17 @@
 # Kom-igång-repo för Mejslas TypeScript-cirkel
 
 Detta repo innehåller länkar, tips och trix som kan vara praktiska för den Node-
-och TypeScript-ovane. Två bra platser att börja på:
+och TypeScript-ovane.
+
+Bra platser att börja på är:
 
 - [TypeScripts webbplats](https://www.typescriptlang.org/)
 - [Mejsla-cirkelns sida](https://mejsla.se/cirkel2020/) - kalendarium,
   (mail)adresser, telefonnummer, etc.
 - [Node JS](https://nodejs.org/) - JavaScriptmotorn som kör vår kompilerade
   TypeScript.
+- [Visual Studio Code](https://code.visualstudio.com/) - editor/IDE med bra 
+  TS-stöd.
 
 ## Hello, world!
 
