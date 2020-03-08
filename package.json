@@ -22,7 +22,9 @@
     "build": "tsc",
     "start": "node lib/index.js",
     "prettier": "prettier --write src/**/*.ts",
-    "test": "jest"
+    "test": "jest",
+    "lint": "tslint -p tsconfig.json",
+    "serve": "tsc --watch"
   },
   "repository": {
     "type": "git",
