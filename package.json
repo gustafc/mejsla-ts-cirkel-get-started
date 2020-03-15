@@ -27,8 +27,7 @@
     "start": "node lib/index.js",
     "prettier": "prettier --write src/**/*.ts",
     "test": "jest",
-    "lint": "tslint -p tsconfig.json",
-    "lint2": "eslint -c .eslintrc.js --ext .ts lib/**",
+    "lint": "eslint -c .eslintrc.js --ext .ts src/**",
     "serve": "tsc --watch"
   },
   "repository": {
